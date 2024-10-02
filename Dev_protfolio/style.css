@@ -1,0 +1,144 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/* head styling  */
+header {
+  width: 1600px;
+  height: 837px;
+  background: #fff8f3;
+  background-image: url(images/developer.png), url(images/elipse.png);
+  background-repeat: no-repeat;
+  background-position: left, right bottom;
+}
+
+/* nav of header styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 230px 0px;
+}
+
+.title {
+  color: #181818;
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.title span {
+  color: #fd6e0a;
+}
+.navbar nav {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  width: 189px;
+  height: 27px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  /* border: 1px solid red; */
+  margin-right: 50px;
+}
+
+.nav-btn {
+  width: 150px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 36px;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* hero-page styling */
+
+.hero-page {
+  display: flex;
+  padding-left: 232px;
+  margin-top: 50px;
+}
+
+.hero-page img {
+  width: 584px;
+  height: 676px;
+}
+
+.hero-greeting {
+  /* border: 1px solid red; */
+  margin-top: 185px;
+  margin-bottom: 5px;
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #474747;
+}
+
+.hero-name {
+  color: #181818;
+  font-family: "Open Sans";
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* border: 1px solid red; */
+  margin-bottom: 30px;
+}
+
+.downloadBtn {
+  width: 200px;
+  height: 64px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  background-color: #fd6e0a;
+  margin-right: 30px;
+}
+
+.phone {
+  width: 160px;
+  height: 64px;
+  color: #fd6e0a;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  background: #fff8f3;
+}
