@@ -146,7 +146,7 @@ nav li a {
 /* abour me styling  */
 
 .about-me {
-  /* border: 1px solid red; */
+  border: 1px solid #fff8f3;
   margin-top: 130px;
   width: 1140px;
   height: 550px;
@@ -157,6 +157,10 @@ nav li a {
 
 .about-data {
   margin: 131px 157px 131px 156px;
+  /* margin-top: 131px;
+  margin-bottom: 131px;
+  margin-left: 156px;
+  margin-right: 157px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -288,4 +292,82 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 175% */
+}
+
+/* resume-summary styling  */
+.res-title {
+  /* border: 1px solid red; */
+  margin-top: 130px;
+  color: #181818;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.resume-sum {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 71px;
+  /* border: 1px solid red; */
+  margin-left: 230px;
+  margin-right: 277px;
+  margin-top: 131px;
+}
+.resume-sum h2 {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.resume-sum h3 {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.resume-sum h4 {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.resume-sum p {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.education {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experience {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.resume-down {
+  text-align: center;
 }
