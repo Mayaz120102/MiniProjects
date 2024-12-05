@@ -20,9 +20,39 @@ nav {
 button {
   background: rebeccapurple;
   color: white;
+  cursor: pointer;
 }
 
 .recipe-container {
   text-align: center;
   margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 40px;
+  column-gap: 20px;
+  width: 80%;
+  margin: 10px auto;
+  padding: 20px;
+  place-items: center;
+}
+
+.recipe {
+  max-width: 350px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recipe-details {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 250px;
+  background: white;
+  color: #000;
 }
